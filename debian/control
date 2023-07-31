@@ -3,7 +3,7 @@ Maintainer: Elias Bakken <elias@iagent.no>
 Section: misc
 Priority: optional
 Standards-Version: 0.4.0
-Build-Depends: build-essential
+Build-Depends: debhelper,git,device-tree-compiler,build-essential
 
 Package: device-tree-overlays
 Architecture: armhf
